@@ -1,23 +1,24 @@
-import './App.css';
+import { Fragment } from "react";
+import { Link, Route, Routes } from "react-router-dom";
+import Home from "./pages/home.js"
+import Lounges from "./pages/lounges.js"
+import Mixer from "./pages/mixer.js"
+import Header from "./layout/header.js"
+import Footer from "./layout/footer.js"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='wrapper'>
+      <Header />
+
+
+     
+      <Main/>
+
+      <Footer />
     </div>
   );
+
 }
 
 export default App;

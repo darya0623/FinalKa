@@ -1,6 +1,5 @@
 import React from 'react'
-import Logo from '../img/Logo.png'
-import profile from '../img/icons/person.svg'
+
 
 export default function Header() {
     return (
@@ -8,7 +7,7 @@ export default function Header() {
 
             <div className='navbar'>
 
-                <img src={Logo} alt="logo" className='logo' />
+                
                 <input type="search" placeholder='Search bar' className='searchbar' />
                 
 
@@ -34,7 +33,7 @@ export default function Header() {
                     <button className='login'>Login</button>
                     <button className='singup'>Sing Up</button>
                     <button className='logout' id='logout-btn'>Logout</button>
-                    <button id='profile-btn'><img src={profile} alt="profile" /></button>
+                    
 
                 </div>
 

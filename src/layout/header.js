@@ -6,14 +6,10 @@ export default function Header() {
         <header>
 
             <div className='navbar'>
-
-                
-                <input type="search" placeholder='Search bar' className='searchbar' />
-                
+                {/* <input type="search" placeholder='Search bar' className='searchbar' />
 
                 <div className='options'>
                     <label htmlFor='#select'>Category</label>
-
                     <select id='select'>
                         <option>
 
@@ -26,16 +22,12 @@ export default function Header() {
                         </option>
                     </select>
                 </div>
-
                 <a href="!" className='mentor'>Become a Mentor</a>
-
                 <div className='buttons'>
                     <button className='login'>Login</button>
                     <button className='singup'>Sing Up</button>
-                    <button className='logout' id='logout-btn'>Logout</button>
-                    
-
-                </div>
+                    <button className='logout' id='logout-btn'>Logout</button> 
+                </div> */}
 
             </div>
         </header>

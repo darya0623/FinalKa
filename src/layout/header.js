@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from './../img/logo.svg'
+import HeaderStyle from "./../layout/Layout.css"
 
 
 export default function Header() {
@@ -8,7 +9,7 @@ export default function Header() {
         <header>
 
             <div className='navbar'>
-                <img src={logo} alt="error" />
+                <img className='' src={logo} alt="error" />
                 <Link to={""}>Табаки</Link>
                 <Link to={""}>Миксы</Link>
                 <Link to={""}>Лаунжи</Link>

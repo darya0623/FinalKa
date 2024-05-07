@@ -4,27 +4,16 @@ import Home from "./pages/home.js"
 import Lounges from "./pages/lounges.js"
 import Mixer from "./pages/mixer.js"
 import LoungeInfo from "./pages/loungeInfo.js"
-
 import Footer from "./layout/footer.js"
+import Header from "./layout/header.js";
 
 
 const App = () => {
 
   return (
     <div className='wrapper'>
-      <header>
+      <Header/>
 
-        <div className='navbar'>
-          <img className='logo' src={logo} alt="error" />
-          <Link to={""}>Табаки</Link>
-          <Link to={""}>Миксы</Link>
-          <Link to={""}>Лаунжи</Link>
-          <Link to={""}>Магазины</Link>
-          <Link to={""}>Карта</Link>
-        </div>
-      </header>
-
-      <Footer />
     </div>
   );
 

@@ -1,5 +1,8 @@
+@import "./../fonts.scss";
+
 body {
-    background: #F2F6FA;
+    background: #ecf2f8
+    // background-color: linear-gradient(#ecf2f8, white);
 }
 
 .container{
@@ -22,18 +25,3 @@ body {
     text-decoration: underline;
 }
 
-.header-hello {
-    top: 100px;
-    position: relative;
-}
-
-.hello-name {
-    position: absolute;
-}
-
-.hello-text {
-    position: absolute;
-font-weight: 400;
-font-size: 36px;
-color: #868686;
-}

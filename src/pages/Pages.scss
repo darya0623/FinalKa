@@ -1,0 +1,34 @@
+.header-hello {
+    top: 100px;
+    position: relative;
+}
+
+.hello-name {
+    position: absolute;
+    z-index: -1;
+}
+
+.hello-text {
+    position: absolute;
+    top: -10px;
+font-weight: lighter;
+font-size: 36px;
+color: #868686;
+font-family: var(--font-family);
+}
+
+.hello-kalyan {
+    position: absolute;
+    z-index: -1;
+    top: -130px;
+}
+
+.hello-fog1{
+    position: absolute;
+    left: 0;
+    bottom: -150px;
+    z-index: 5;
+}
+
+
+

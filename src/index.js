@@ -18,7 +18,6 @@ import SignUp from "./pages/signup.js"
 import ".././src/index.scss"
 
 
-
 const router = createBrowserRouter([
   {
     path: "/",

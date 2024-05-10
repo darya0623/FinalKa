@@ -1,11 +1,12 @@
-.header-hello {
-    top: 100px;
+.main-hello {
     position: relative;
+    top: -770px;
+    z-index: 0;
 }
 
 .hello-name {
     position: absolute;
-    z-index: -1;
+    z-index: -3;
 }
 
 .hello-text {
@@ -19,16 +20,40 @@ font-family: var(--font-family);
 
 .hello-kalyan {
     position: absolute;
-    z-index: -1;
+    z-index: -2;
     top: -130px;
 }
 
 .hello-fog1{
+    width: 900px;
     position: absolute;
     left: 0;
-    bottom: -150px;
-    z-index: 5;
+    bottom: 0;
+    z-index: -1;
 }
 
+.hello-fog2{
+    width: 900px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
 
+// .main {
+    
+//     // background-color: linear-gradient(#2893ff, white);
+// }
 
+.hello-portal{
+width: 350px;
+position: absolute;
+
+color: #ecf2f8;
+// border-radius: 30px;
+// border-color: white;
+stroke: white;
+stroke-width: 30px;
+right: 0;
+top: 250px;
+}

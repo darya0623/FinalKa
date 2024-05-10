@@ -1,13 +1,10 @@
 @import "./../fonts.scss";
 
-body {
-    background: #ecf2f8
-    // background-color: linear-gradient(#ecf2f8, white);
+header{
+    height: 100vh ;
+    background: linear-gradient( #ecf2f8, white)
 }
 
-.container{
-    margin: 0 370px;
-}
 
 .nav-logo {
     width: 110px;

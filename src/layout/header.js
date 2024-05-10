@@ -13,7 +13,7 @@ export default function Header() {
             <div className="container">
                 <nav className="header-nav">
                     <a href="/home"><img className="nav-logo" src={logo} alt="error" /></a>
-                    <a href="/tabaks" className="nav-item">Главная</a>
+                    <a href="/tabaks" className="nav-item">Табаки</a>
                     <a href="/mixes" className="nav-item">Миксы</a>
                     <a href="/lounges" className="nav-item">Лаунжи</a>
                     <a href="/home" className="nav-item">Магазины</a>
@@ -21,9 +21,6 @@ export default function Header() {
                     <a href="/home" className="nav-item">Мои табаки</a>
                     <a href="/login" className="nav-item">Войти</a>
                 </nav>
-
-                
-
             </div>
         </header>
     )

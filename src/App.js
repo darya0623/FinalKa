@@ -6,16 +6,17 @@ import Mixer from "./pages/mixer.js"
 import LoungeInfo from "./pages/loungeInfo.js"
 import Footer from "./layout/footer.js"
 import Header from "./layout/header.js";
+import ".././src/App.scss"
 
 
 const App = () => {
 
-  return (
-    <div className='wrapper'>
-      <Header/>
+  return ( 
+  <Fragment>
+    <Header/>
       <Home/>
+  </Fragment>
 
-    </div>
   );
 
 }

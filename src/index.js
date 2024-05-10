@@ -18,58 +18,59 @@ import SignUp from "./pages/signup.js"
 import ".././src/index.scss"
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        path: "/home",
-        element: <Home />
-      },
-      {
-        path: "/tabaks",
-        element: <Tabaks />
-      },
-      {
-        path: "/tabakinfo",
-        element: <TabakInfo />
-      },
-      {
-        path: "/lounges",
-        element: <Lounges />
-      },
-      {
-        path: "/loungeinfo",
-        element: <LoungeInfo />
-      },
-      {
-        path: "/mixes",
-        element: <Mixes />
-      },
-      {
-        path: "/mixinfo",
-        element: <MixInfo />
-      },
-      {
-        path: "/mixes",
-        element: <Mixer />
-      },
-      {
-        path: "/login",
-        element: <LogIn />
-      },
-      {
-        path: "/signup",
-        element: <SignUp />
-      }
-    ]
-  }
-])
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <App />,
+//     children: [
+//       {
+//         path: "/home",
+//         element: <Home />
+//       },
+//       {
+//         path: "/tabaks",
+//         element: <Tabaks />
+//       },
+//       {
+//         path: "/tabakinfo",
+//         element: <TabakInfo />
+//       },
+//       {
+//         path: "/lounges",
+//         element: <Lounges />
+//       },
+//       {
+//         path: "/loungeinfo",
+//         element: <LoungeInfo />
+//       },
+//       {
+//         path: "/mixes",
+//         element: <Mixes />
+//       },
+//       {
+//         path: "/mixinfo",
+//         element: <MixInfo />
+//       },
+//       {
+//         path: "/mixes",
+//         element: <Mixer />
+//       },
+//       {
+//         path: "/login",
+//         element: <LogIn />
+//       },
+//       {
+//         path: "/signup",
+//         element: <SignUp />
+//       }
+//     ]
+//   }
+// ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <App/>
+    {/* <RouterProvider router={router} /> */}
   </React.StrictMode>
 );
